@@ -1,0 +1,38 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.product-card__image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.product-card__price {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.product-card__price-after-discount {
+    color: chartreuse;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.product-card__price-before-discount {
+    color: darkgray;
+    font-size: smaller;
+    text-decoration: line-through;
+}
+
+.product-card__price__container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
